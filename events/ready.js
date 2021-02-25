@@ -8,3 +8,4 @@ module.exports = class {
       console.log(`En ligne sous le nom ${this.client.user.tag} !`)
       
     }
+}
