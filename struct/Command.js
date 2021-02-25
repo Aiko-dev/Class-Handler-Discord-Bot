@@ -3,9 +3,9 @@ class Command {
         client,
         {
             name = null,
-            description = "No description provided.",
-            category = "Other",
-            usage = "No usage provided.",
+            description = "Pas de description.",
+            category = "Autre",
+            usage = "Aucun usage",
             enabled = true,
             guildOnly = true,
             aliases = new Array(),
@@ -16,8 +16,8 @@ class Command {
     ) {
         this.client = client;
         this.cooldown = new Set()
-        this.conf = { enabled, guildOnly, aliases, cooldown, category, arg, rpg}; 
-        this.help = { name, description, category, usage, arg, rpg, aliases }; 
+        this.conf = { enabled, guildOnly, aliases, cooldown, category, arg};
+        this.help = { name, description, category, usage, arg, aliases };
     }
     startCooldown(user) {
 
