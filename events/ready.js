@@ -5,7 +5,7 @@ module.exports = class {
 
     run() {
 
-      console.log(`En ligne sous le nom ${this.client.user.tag} !`)
+      console.log(`Online on ${this.client.user.tag} !`)
       
     }
 }
