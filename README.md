@@ -13,7 +13,7 @@
 #### If you don't have a console:
 
 **On Mac :**
- - Launch the `terminal` (application / utility / terminal)
+ - Launch the `terminal` application (application / utility / terminal)
  - Enter the command `cd <path_access_bot_folder>`
  - Make the command `node index.js`
  - Enjoy !
