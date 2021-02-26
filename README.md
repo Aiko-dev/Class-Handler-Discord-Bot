@@ -11,6 +11,15 @@
 - 4️⃣ Une ligne en dessous, remplacez le second `prefix` par le prefix souhaité
 - 5️⃣ Dans VSCode, lancer le terminal et faites `node index.js` pour lancer le bot
 #### Si vous ne possédez pas de console :
-<p>
 
-</p> 
+**Sur Mac :**
+  - Lancer le `terminal` (application/utilitaire/terminal)
+  - Rentrer la commande `cd <chemin_accès_dossier_bot>`
+  - Faire la commande `node index.js` 
+  - Profiter du Bot
+
+**Sur Windows :**
+  - Aller dans le dossier du bot
+  - Faire `shift + right click`
+  - Open the Windows Shell console
+  - Enter the command `node index.js`
