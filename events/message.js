@@ -6,7 +6,7 @@ module.exports = class {
 
         if (message.channel.type === "dm") return this.client.emit("dm", message);
         if (message.mentions.everyone === true ) return;
-        if (message.mentions.has(this.client.user)) message.channel.send(`${message.author.username}, mon préfix sur ce serveur est \`${this.client.config.prefix}\``)
+        if (message.mentions.has(this.client.user)) message.channel.send(`${message.author.username}, my prefix on this server \`${this.client.config.prefix}\``)
         
         if (message.author.bot) return; 
 
