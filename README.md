@@ -1,2 +1,5 @@
-# Class-Handler-Discord-Bot
-Un handler en class pour les bot Discord !
+### Class-Handler-Discord-Bot
+
+Class-Handler-Discord-Bot, c'est quoi ?
+
+## Setup
