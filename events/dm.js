@@ -6,7 +6,7 @@ module.exports = class {
     run(message) {
         const user = message.author;
         if (user.bot) return;
-        user.send("Je ne répond pas en message privé !");
+        user.send("I don't answer in dm channel !");
 
     }
 
