@@ -3,9 +3,9 @@ class Command {
         client,
         {
             name = null,
-            description = "Pas de description.",
-            category = "Autre",
-            usage = "Aucun usage",
+            description = "No description",
+            category = "Other",
+            usage = "No usage",
             enabled = true,
             guildOnly = true,
             aliases = new Array(),
